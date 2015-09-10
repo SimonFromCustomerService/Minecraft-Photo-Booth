@@ -10,7 +10,7 @@ def take_the_pic():
         #camera.resolution = (150, 100)
         camera.start_preview()
         time.sleep(2)
-        camera.capture('selfie.jpg')
+        camera.capture('#Minecraft_Selfie.jpg')
 
 def where_am_I():
     while True:
